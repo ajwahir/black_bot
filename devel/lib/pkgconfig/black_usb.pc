@@ -1,0 +1,8 @@
+prefix=/home/ajwahir/grmc/catkin_ws_black/devel
+
+Name: black_usb
+Description: Description of black_usb
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/ajwahir/grmc/catkin_ws_black/devel/lib 
+Requires: 

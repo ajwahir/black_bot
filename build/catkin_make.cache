@@ -1,0 +1,2 @@
+black_usb:ethzasl_xsens_driver:linkay_lidar:robot_localization:wheel_odometry
+-DCATKIN_DEVEL_PREFIX=/home/ajwahir/grmc/catkin_ws_black/devel -DCMAKE_INSTALL_PREFIX=/home/ajwahir/grmc/catkin_ws_black/install -G Unix Makefiles

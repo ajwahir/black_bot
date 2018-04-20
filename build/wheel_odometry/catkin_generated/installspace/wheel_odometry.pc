@@ -1,0 +1,8 @@
+prefix=/home/ajwahir/grmc/catkin_ws_black/install
+
+Name: wheel_odometry
+Description: Description of wheel_odometry
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/ajwahir/grmc/catkin_ws_black/install/lib 
+Requires: 

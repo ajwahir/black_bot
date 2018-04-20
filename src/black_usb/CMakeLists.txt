@@ -1,0 +1,22 @@
+cmake_minimum_required(VERSION 2.8.3)
+project(black_usb)
+
+find_package(catkin REQUIRED COMPONENTS
+  roscpp
+  rospy
+  std_msgs
+  sensor_msgs
+)
+
+catkin_package()
+
+include_directories(
+# include
+  ${catkin_INCLUDE_DIRS}
+)
+
+add_executable(black_usb src/black_usb.cpp)
+
+add_dependencies(black_usb ${${PROJECT_NAME}_EXPORTED_TARGETS} ${catkin_EXPORTED_TARGETS})
+target_link_libraries(black_usb
+        ${catkin_LIBRARIES})
